@@ -6,7 +6,7 @@ function getRandomChoice() {
   const randomIndex = Math.floor(Math.random() * choices.length);
   return choices[randomIndex];
 }
-
+// Это коммент ❤️💕
 function determineWinner(userChoice, computerChoice) {
   if (userChoice === computerChoice) {
     return 'Ничья!';
